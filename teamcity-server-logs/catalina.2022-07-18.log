@@ -1,0 +1,444 @@
+18-Jul-2022 12:33:46.914 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.78
+18-Jul-2022 12:33:46.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 16:05:28 UTC
+18-Jul-2022 12:33:46.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.78.0
+18-Jul-2022 12:33:46.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Jul-2022 12:33:46.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-41-generic
+18-Jul-2022 12:33:46.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Jul-2022 12:33:46.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/java/openjdk
+18-Jul-2022 12:33:46.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.15+9-LTS
+18-Jul-2022 12:33:46.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+18-Jul-2022 12:33:46.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/teamcity
+18-Jul-2022 12:33:46.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/teamcity
+18-Jul-2022 12:33:46.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED
+18-Jul-2022 12:33:46.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+IgnoreUnrecognizedVMOptions
+18-Jul-2022 12:33:46.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Jul-2022 12:33:46.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Jul-2022 12:33:46.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Jul-2022 12:33:46.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Jul-2022 12:33:46.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Jul-2022 12:33:46.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/teamcity/conf/logging.properties
+18-Jul-2022 12:33:46.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jul-2022 12:33:46.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Jul-2022 12:33:46.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jul-2022 12:33:46.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Jul-2022 12:33:46.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx2g
+18-Jul-2022 12:33:46.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:ReservedCodeCacheSize=350m
+18-Jul-2022 12:33:46.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dteamcity.configuration.path=../conf/teamcity-startup.properties
+18-Jul-2022 12:33:46.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dlog4j2.configurationFile=file:/opt/teamcity/bin/../conf/teamcity-server-log4j.xml
+18-Jul-2022 12:33:46.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dteamcity_logs=/opt/teamcity/bin/../logs
+18-Jul-2022 12:33:46.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+18-Jul-2022 12:33:46.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Jul-2022 12:33:46.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/teamcity
+18-Jul-2022 12:33:46.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/teamcity
+18-Jul-2022 12:33:46.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/teamcity/temp
+18-Jul-2022 12:33:46.937 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+18-Jul-2022 12:33:46.986 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8111"]
+18-Jul-2022 12:33:47.024 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 813 ms
+18-Jul-2022 12:33:47.128 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Jul-2022 12:33:47.129 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.78]
+18-Jul-2022 12:33:47.180 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/teamcity/webapps/ROOT]
+18-Jul-2022 12:33:52.075 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/teamcity/webapps/ROOT] has finished in [4,895] ms
+18-Jul-2022 12:33:52.086 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8111"]
+18-Jul-2022 12:33:52.101 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 5065 ms
+18-Jul-2022 12:40:10.632 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Jul-2022 12:40:10.633 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8111"]
+18-Jul-2022 12:40:10.633 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Jul-2022 12:40:14.146 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [org.hsqldb.jdbc.JDBCDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Jul-2022 12:40:14.146 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [org.hsqldb1.jdbcDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Jul-2022 12:40:14.148 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [JSP pre-compilation thread 1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.15/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.awaitTermination(ThreadPoolExecutor.java:1454)
+ jetbrains.buildServer.util.ThreadUtil.shutdownGracefully(ThreadUtil.java:56)
+ jetbrains.buildServer.util.ThreadUtil.shutdownGracefully(ThreadUtil.java:38)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter$1.run(JspPrecompilerFilter.java:15)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:829)
+18-Jul-2022 12:40:14.149 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [TC: 12:34:21 Pre-compiling JSP 'http://127.0.0.1:8112/2fa.jsp?jsp_precompile=true' (1/497); 12:34:21 Task: 'jetbrains.buildServer.web.jsp.JspPrecompilerFilter$1$1@2ed7f31c'; JSP pre-compilation thread 1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.net.PlainSocketImpl.socketConnect(Native Method)
+ java.base@11.0.15/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+ java.base@11.0.15/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+ java.base@11.0.15/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+ java.base@11.0.15/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+ java.base@11.0.15/java.net.Socket.connect(Socket.java:609)
+ java.base@11.0.15/jdk.internal.reflect.GeneratedMethodAccessor87.invoke(Unknown Source)
+ java.base@11.0.15/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+ java.base@11.0.15/java.lang.reflect.Method.invoke(Method.java:566)
+ org.apache.commons.httpclient.protocol.ReflectionSocketFactory.createSocket(ReflectionSocketFactory.java:140)
+ org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:125)
+ org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+ org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+ org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+ org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+ org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter.lambda$tryToPrecompile$0(JspPrecompilerFilter.java:148)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter$$Lambda$950/0x0000000100d8dc40.apply(Unknown Source)
+ jetbrains.buildServer.serverSide.impl.BaseAccessChecker.runWithDisabledChecks(BaseAccessChecker.java:59)
+ jetbrains.buildServer.serverSide.impl.SecondaryNodeSecurityManager.executeSafe(SecondaryNodeSecurityManager.java:41)
+ jetbrains.buildServer.serverSide.impl.SecondaryNodeSecurityManager.runSafeNetworkOperation(SecondaryNodeSecurityManager.java:65)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter.tryToPrecompile(JspPrecompilerFilter.java:5)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter.precompileJsp(JspPrecompilerFilter.java:154)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter.access$400(JspPrecompilerFilter.java:42)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter$1$1$1.apply(JspPrecompilerFilter.java:1)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter$1$1$1.apply(JspPrecompilerFilter.java:4)
+ jetbrains.buildServer.util.NamedThreadFactory.executeWithNewThreadNameFuncThrow(NamedThreadFactory.java:107)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter$1$1.run(JspPrecompilerFilter.java:4)
+ java.base@11.0.15/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+ java.base@11.0.15/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:829)
+18-Jul-2022 12:40:14.149 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [TC: 12:34:21 Pre-compiling JSP 'http://127.0.0.1:8112/400.jsp?jsp_precompile=true' (1/497); 12:34:21 Task: 'jetbrains.buildServer.web.jsp.JspPrecompilerFilter$1$1@81eacd0'; JSP pre-compilation thread 2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.net.PlainSocketImpl.socketConnect(Native Method)
+ java.base@11.0.15/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+ java.base@11.0.15/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+ java.base@11.0.15/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+ java.base@11.0.15/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+ java.base@11.0.15/java.net.Socket.connect(Socket.java:609)
+ java.base@11.0.15/jdk.internal.reflect.GeneratedMethodAccessor87.invoke(Unknown Source)
+ java.base@11.0.15/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+ java.base@11.0.15/java.lang.reflect.Method.invoke(Method.java:566)
+ org.apache.commons.httpclient.protocol.ReflectionSocketFactory.createSocket(ReflectionSocketFactory.java:140)
+ org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:125)
+ org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+ org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+ org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+ org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+ org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter.lambda$tryToPrecompile$0(JspPrecompilerFilter.java:148)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter$$Lambda$950/0x0000000100d8dc40.apply(Unknown Source)
+ jetbrains.buildServer.serverSide.impl.BaseAccessChecker.runWithDisabledChecks(BaseAccessChecker.java:59)
+ jetbrains.buildServer.serverSide.impl.SecondaryNodeSecurityManager.executeSafe(SecondaryNodeSecurityManager.java:41)
+ jetbrains.buildServer.serverSide.impl.SecondaryNodeSecurityManager.runSafeNetworkOperation(SecondaryNodeSecurityManager.java:65)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter.tryToPrecompile(JspPrecompilerFilter.java:5)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter.precompileJsp(JspPrecompilerFilter.java:154)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter.access$400(JspPrecompilerFilter.java:42)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter$1$1$1.apply(JspPrecompilerFilter.java:1)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter$1$1$1.apply(JspPrecompilerFilter.java:4)
+ jetbrains.buildServer.util.NamedThreadFactory.executeWithNewThreadNameFuncThrow(NamedThreadFactory.java:107)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter$1$1.run(JspPrecompilerFilter.java:4)
+ java.base@11.0.15/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+ java.base@11.0.15/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:829)
+18-Jul-2022 12:40:14.152 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@fc706e9]) and a value of type [org.springframework.security.core.context.SecurityContextImpl] (value [SecurityContextImpl [Null authentication]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+18-Jul-2022 12:40:14.153 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1edf76f1]) and a value of type [jetbrains.buildServer.util.NamedThreadFactory$1] (value [jetbrains.buildServer.util.NamedThreadFactory$1@77ac177d]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+18-Jul-2022 12:40:14.153 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [jetbrains.buildServer.util.ThreadStat$1] (value [jetbrains.buildServer.util.ThreadStat$1@406ba72f]) and a value of type [jetbrains.buildServer.util.NoOpTraceState] (value [jetbrains.buildServer.util.NoOpTraceState@25e6392d]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+18-Jul-2022 12:40:14.153 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@2162a60c]) and a value of type [java.util.RegularEnumSet] (value [[network]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+18-Jul-2022 12:40:14.153 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1edf76f1]) and a value of type [jetbrains.buildServer.util.NamedThreadFactory$1] (value [jetbrains.buildServer.util.NamedThreadFactory$1@36625aa2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+18-Jul-2022 12:40:14.153 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [jetbrains.buildServer.util.ThreadStat$1] (value [jetbrains.buildServer.util.ThreadStat$1@406ba72f]) and a value of type [jetbrains.buildServer.util.NoOpTraceState] (value [jetbrains.buildServer.util.NoOpTraceState@25e6392d]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+18-Jul-2022 12:40:14.154 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@2162a60c]) and a value of type [java.util.RegularEnumSet] (value [[network]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+18-Jul-2022 12:40:14.161 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8111"]
+18-Jul-2022 12:40:14.167 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8111"]
+18-Jul-2022 12:40:17.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.78
+18-Jul-2022 12:40:17.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 16:05:28 UTC
+18-Jul-2022 12:40:17.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.78.0
+18-Jul-2022 12:40:17.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Jul-2022 12:40:17.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-41-generic
+18-Jul-2022 12:40:17.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Jul-2022 12:40:17.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/java/openjdk
+18-Jul-2022 12:40:17.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.15+9-LTS
+18-Jul-2022 12:40:17.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+18-Jul-2022 12:40:17.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/teamcity
+18-Jul-2022 12:40:17.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/teamcity
+18-Jul-2022 12:40:17.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED
+18-Jul-2022 12:40:17.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+IgnoreUnrecognizedVMOptions
+18-Jul-2022 12:40:17.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Jul-2022 12:40:17.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Jul-2022 12:40:17.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Jul-2022 12:40:17.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Jul-2022 12:40:17.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Jul-2022 12:40:17.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/teamcity/conf/logging.properties
+18-Jul-2022 12:40:17.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jul-2022 12:40:17.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Jul-2022 12:40:17.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jul-2022 12:40:17.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Jul-2022 12:40:17.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx2g
+18-Jul-2022 12:40:17.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:ReservedCodeCacheSize=350m
+18-Jul-2022 12:40:17.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dteamcity.configuration.path=../conf/teamcity-startup.properties
+18-Jul-2022 12:40:17.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dlog4j2.configurationFile=file:/opt/teamcity/bin/../conf/teamcity-server-log4j.xml
+18-Jul-2022 12:40:17.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dteamcity_logs=/opt/teamcity/bin/../logs
+18-Jul-2022 12:40:17.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+18-Jul-2022 12:40:17.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Jul-2022 12:40:17.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/teamcity
+18-Jul-2022 12:40:17.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/teamcity
+18-Jul-2022 12:40:17.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/teamcity/temp
+18-Jul-2022 12:40:17.984 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+18-Jul-2022 12:40:18.036 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8111"]
+18-Jul-2022 12:40:18.070 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 737 ms
+18-Jul-2022 12:40:18.160 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Jul-2022 12:40:18.160 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.78]
+18-Jul-2022 12:40:18.168 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/teamcity/webapps/ROOT]
+18-Jul-2022 12:40:24.109 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/teamcity/webapps/ROOT] has finished in [5,941] ms
+18-Jul-2022 12:40:24.134 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8111"]
+18-Jul-2022 12:40:24.176 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 6105 ms
+18-Jul-2022 12:48:14.345 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Jul-2022 12:48:14.346 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8111"]
+18-Jul-2022 12:48:14.346 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Jul-2022 12:48:17.937 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [org.hsqldb.jdbc.JDBCDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Jul-2022 12:48:17.938 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [org.hsqldb1.jdbcDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Jul-2022 12:48:17.941 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [JSP pre-compilation thread 1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.15/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.awaitTermination(ThreadPoolExecutor.java:1454)
+ jetbrains.buildServer.util.ThreadUtil.shutdownGracefully(ThreadUtil.java:56)
+ jetbrains.buildServer.util.ThreadUtil.shutdownGracefully(ThreadUtil.java:38)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter$1.run(JspPrecompilerFilter.java:15)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:829)
+18-Jul-2022 12:48:17.942 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [TC: 12:40:44 Pre-compiling JSP 'http://127.0.0.1:8112/2fa.jsp?jsp_precompile=true' (1/497); 12:40:44 Task: 'jetbrains.buildServer.web.jsp.JspPrecompilerFilter$1$1@439f7e4'; JSP pre-compilation thread 1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.net.PlainSocketImpl.socketConnect(Native Method)
+ java.base@11.0.15/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+ java.base@11.0.15/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+ java.base@11.0.15/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+ java.base@11.0.15/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+ java.base@11.0.15/java.net.Socket.connect(Socket.java:609)
+ java.base@11.0.15/jdk.internal.reflect.GeneratedMethodAccessor87.invoke(Unknown Source)
+ java.base@11.0.15/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+ java.base@11.0.15/java.lang.reflect.Method.invoke(Method.java:566)
+ org.apache.commons.httpclient.protocol.ReflectionSocketFactory.createSocket(ReflectionSocketFactory.java:140)
+ org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:125)
+ org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+ org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+ org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+ org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+ org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter.lambda$tryToPrecompile$0(JspPrecompilerFilter.java:148)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter$$Lambda$899/0x0000000100cea040.apply(Unknown Source)
+ jetbrains.buildServer.serverSide.impl.BaseAccessChecker.runWithDisabledChecks(BaseAccessChecker.java:59)
+ jetbrains.buildServer.serverSide.impl.SecondaryNodeSecurityManager.executeSafe(SecondaryNodeSecurityManager.java:41)
+ jetbrains.buildServer.serverSide.impl.SecondaryNodeSecurityManager.runSafeNetworkOperation(SecondaryNodeSecurityManager.java:65)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter.tryToPrecompile(JspPrecompilerFilter.java:5)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter.precompileJsp(JspPrecompilerFilter.java:154)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter.access$400(JspPrecompilerFilter.java:42)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter$1$1$1.apply(JspPrecompilerFilter.java:1)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter$1$1$1.apply(JspPrecompilerFilter.java:4)
+ jetbrains.buildServer.util.NamedThreadFactory.executeWithNewThreadNameFuncThrow(NamedThreadFactory.java:107)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter$1$1.run(JspPrecompilerFilter.java:4)
+ java.base@11.0.15/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+ java.base@11.0.15/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:829)
+18-Jul-2022 12:48:17.942 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [TC: 12:40:44 Pre-compiling JSP 'http://127.0.0.1:8112/400.jsp?jsp_precompile=true' (1/497); 12:40:44 Task: 'jetbrains.buildServer.web.jsp.JspPrecompilerFilter$1$1@3d8aafe2'; JSP pre-compilation thread 2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.net.PlainSocketImpl.socketConnect(Native Method)
+ java.base@11.0.15/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+ java.base@11.0.15/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+ java.base@11.0.15/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+ java.base@11.0.15/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+ java.base@11.0.15/java.net.Socket.connect(Socket.java:609)
+ java.base@11.0.15/jdk.internal.reflect.GeneratedMethodAccessor87.invoke(Unknown Source)
+ java.base@11.0.15/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+ java.base@11.0.15/java.lang.reflect.Method.invoke(Method.java:566)
+ org.apache.commons.httpclient.protocol.ReflectionSocketFactory.createSocket(ReflectionSocketFactory.java:140)
+ org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:125)
+ org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+ org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+ org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+ org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+ org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter.lambda$tryToPrecompile$0(JspPrecompilerFilter.java:148)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter$$Lambda$899/0x0000000100cea040.apply(Unknown Source)
+ jetbrains.buildServer.serverSide.impl.BaseAccessChecker.runWithDisabledChecks(BaseAccessChecker.java:59)
+ jetbrains.buildServer.serverSide.impl.SecondaryNodeSecurityManager.executeSafe(SecondaryNodeSecurityManager.java:41)
+ jetbrains.buildServer.serverSide.impl.SecondaryNodeSecurityManager.runSafeNetworkOperation(SecondaryNodeSecurityManager.java:65)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter.tryToPrecompile(JspPrecompilerFilter.java:5)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter.precompileJsp(JspPrecompilerFilter.java:154)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter.access$400(JspPrecompilerFilter.java:42)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter$1$1$1.apply(JspPrecompilerFilter.java:1)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter$1$1$1.apply(JspPrecompilerFilter.java:4)
+ jetbrains.buildServer.util.NamedThreadFactory.executeWithNewThreadNameFuncThrow(NamedThreadFactory.java:107)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter$1$1.run(JspPrecompilerFilter.java:4)
+ java.base@11.0.15/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+ java.base@11.0.15/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:829)
+18-Jul-2022 12:48:17.946 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1d53389e]) and a value of type [jetbrains.buildServer.util.NamedThreadFactory$1] (value [jetbrains.buildServer.util.NamedThreadFactory$1@fda773a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+18-Jul-2022 12:48:17.946 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [jetbrains.buildServer.util.ThreadStat$1] (value [jetbrains.buildServer.util.ThreadStat$1@704919c7]) and a value of type [jetbrains.buildServer.util.NoOpTraceState] (value [jetbrains.buildServer.util.NoOpTraceState@74da5898]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+18-Jul-2022 12:48:17.947 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@77637a0c]) and a value of type [java.util.RegularEnumSet] (value [[network]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+18-Jul-2022 12:48:17.947 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1d53389e]) and a value of type [jetbrains.buildServer.util.NamedThreadFactory$1] (value [jetbrains.buildServer.util.NamedThreadFactory$1@2b5cb07d]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+18-Jul-2022 12:48:17.947 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [jetbrains.buildServer.util.ThreadStat$1] (value [jetbrains.buildServer.util.ThreadStat$1@704919c7]) and a value of type [jetbrains.buildServer.util.NoOpTraceState] (value [jetbrains.buildServer.util.NoOpTraceState@74da5898]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+18-Jul-2022 12:48:17.947 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@77637a0c]) and a value of type [java.util.RegularEnumSet] (value [[network]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+18-Jul-2022 12:48:17.952 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8111"]
+18-Jul-2022 12:48:17.964 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8111"]
+18-Jul-2022 12:50:43.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.78
+18-Jul-2022 12:50:43.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 16:05:28 UTC
+18-Jul-2022 12:50:43.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.78.0
+18-Jul-2022 12:50:43.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Jul-2022 12:50:43.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-41-generic
+18-Jul-2022 12:50:43.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Jul-2022 12:50:43.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/java/openjdk
+18-Jul-2022 12:50:43.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.15+9-LTS
+18-Jul-2022 12:50:43.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+18-Jul-2022 12:50:43.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/teamcity
+18-Jul-2022 12:50:43.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/teamcity
+18-Jul-2022 12:50:43.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED
+18-Jul-2022 12:50:43.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+IgnoreUnrecognizedVMOptions
+18-Jul-2022 12:50:43.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Jul-2022 12:50:43.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Jul-2022 12:50:43.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Jul-2022 12:50:43.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Jul-2022 12:50:43.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Jul-2022 12:50:43.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/teamcity/conf/logging.properties
+18-Jul-2022 12:50:43.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jul-2022 12:50:43.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Jul-2022 12:50:43.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jul-2022 12:50:43.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Jul-2022 12:50:43.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx2g
+18-Jul-2022 12:50:43.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:ReservedCodeCacheSize=350m
+18-Jul-2022 12:50:43.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dteamcity.configuration.path=../conf/teamcity-startup.properties
+18-Jul-2022 12:50:43.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dlog4j2.configurationFile=file:/opt/teamcity/bin/../conf/teamcity-server-log4j.xml
+18-Jul-2022 12:50:43.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dteamcity_logs=/opt/teamcity/bin/../logs
+18-Jul-2022 12:50:43.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+18-Jul-2022 12:50:43.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Jul-2022 12:50:43.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/teamcity
+18-Jul-2022 12:50:43.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/teamcity
+18-Jul-2022 12:50:43.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/teamcity/temp
+18-Jul-2022 12:50:43.198 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+18-Jul-2022 12:50:43.241 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8111"]
+18-Jul-2022 12:50:43.276 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 807 ms
+18-Jul-2022 12:50:43.363 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Jul-2022 12:50:43.364 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.78]
+18-Jul-2022 12:50:43.371 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/teamcity/webapps/ROOT]
+18-Jul-2022 12:50:49.331 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/teamcity/webapps/ROOT] has finished in [5,959] ms
+18-Jul-2022 12:50:49.350 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8111"]
+18-Jul-2022 12:50:49.547 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 6270 ms
+18-Jul-2022 13:01:13.868 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Jul-2022 13:01:13.869 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8111"]
+18-Jul-2022 13:01:13.869 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Jul-2022 13:01:18.371 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [org.hsqldb.jdbc.JDBCDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Jul-2022 13:01:18.372 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [org.hsqldb1.jdbcDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Jul-2022 13:01:18.372 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [JSP pre-compilation thread 1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.15/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.15/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.awaitTermination(ThreadPoolExecutor.java:1454)
+ jetbrains.buildServer.util.ThreadUtil.shutdownGracefully(ThreadUtil.java:56)
+ jetbrains.buildServer.util.ThreadUtil.shutdownGracefully(ThreadUtil.java:38)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter$1.run(JspPrecompilerFilter.java:15)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:829)
+18-Jul-2022 13:01:18.373 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [TC: 13:00:05 Pre-compiling JSP 'http://127.0.0.1:8112/404.jsp?jsp_precompile=true' (2/497); 12:51:15 Task: 'jetbrains.buildServer.web.jsp.JspPrecompilerFilter$1$1@a2dc32d'; JSP pre-compilation thread 1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.net.PlainSocketImpl.socketConnect(Native Method)
+ java.base@11.0.15/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+ java.base@11.0.15/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+ java.base@11.0.15/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+ java.base@11.0.15/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+ java.base@11.0.15/java.net.Socket.connect(Socket.java:609)
+ java.base@11.0.15/jdk.internal.reflect.GeneratedMethodAccessor95.invoke(Unknown Source)
+ java.base@11.0.15/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+ java.base@11.0.15/java.lang.reflect.Method.invoke(Method.java:566)
+ org.apache.commons.httpclient.protocol.ReflectionSocketFactory.createSocket(ReflectionSocketFactory.java:140)
+ org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:125)
+ org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+ org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+ org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+ org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+ org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter.lambda$tryToPrecompile$0(JspPrecompilerFilter.java:148)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter$$Lambda$908/0x0000000100cf0840.apply(Unknown Source)
+ jetbrains.buildServer.serverSide.impl.BaseAccessChecker.runWithDisabledChecks(BaseAccessChecker.java:59)
+ jetbrains.buildServer.serverSide.impl.SecondaryNodeSecurityManager.executeSafe(SecondaryNodeSecurityManager.java:41)
+ jetbrains.buildServer.serverSide.impl.SecondaryNodeSecurityManager.runSafeNetworkOperation(SecondaryNodeSecurityManager.java:65)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter.tryToPrecompile(JspPrecompilerFilter.java:5)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter.precompileJsp(JspPrecompilerFilter.java:154)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter.access$400(JspPrecompilerFilter.java:42)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter$1$1$1.apply(JspPrecompilerFilter.java:1)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter$1$1$1.apply(JspPrecompilerFilter.java:4)
+ jetbrains.buildServer.util.NamedThreadFactory.executeWithNewThreadNameFuncThrow(NamedThreadFactory.java:107)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter$1$1.run(JspPrecompilerFilter.java:4)
+ java.base@11.0.15/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+ java.base@11.0.15/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:829)
+18-Jul-2022 13:01:18.374 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [TC: 13:00:05 Pre-compiling JSP 'http://127.0.0.1:8112/_fileUploadResponse.jsp?jsp_precompile=true' (2/497); 12:51:15 Task: 'jetbrains.buildServer.web.jsp.JspPrecompilerFilter$1$1@7a6d738a'; JSP pre-compilation thread 2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.net.PlainSocketImpl.socketConnect(Native Method)
+ java.base@11.0.15/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+ java.base@11.0.15/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+ java.base@11.0.15/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+ java.base@11.0.15/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+ java.base@11.0.15/java.net.Socket.connect(Socket.java:609)
+ java.base@11.0.15/jdk.internal.reflect.GeneratedMethodAccessor95.invoke(Unknown Source)
+ java.base@11.0.15/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+ java.base@11.0.15/java.lang.reflect.Method.invoke(Method.java:566)
+ org.apache.commons.httpclient.protocol.ReflectionSocketFactory.createSocket(ReflectionSocketFactory.java:140)
+ org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:125)
+ org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+ org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+ org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+ org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+ org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter.lambda$tryToPrecompile$0(JspPrecompilerFilter.java:148)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter$$Lambda$908/0x0000000100cf0840.apply(Unknown Source)
+ jetbrains.buildServer.serverSide.impl.BaseAccessChecker.runWithDisabledChecks(BaseAccessChecker.java:59)
+ jetbrains.buildServer.serverSide.impl.SecondaryNodeSecurityManager.executeSafe(SecondaryNodeSecurityManager.java:41)
+ jetbrains.buildServer.serverSide.impl.SecondaryNodeSecurityManager.runSafeNetworkOperation(SecondaryNodeSecurityManager.java:65)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter.tryToPrecompile(JspPrecompilerFilter.java:5)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter.precompileJsp(JspPrecompilerFilter.java:154)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter.access$400(JspPrecompilerFilter.java:42)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter$1$1$1.apply(JspPrecompilerFilter.java:1)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter$1$1$1.apply(JspPrecompilerFilter.java:4)
+ jetbrains.buildServer.util.NamedThreadFactory.executeWithNewThreadNameFuncThrow(NamedThreadFactory.java:107)
+ jetbrains.buildServer.web.jsp.JspPrecompilerFilter$1$1.run(JspPrecompilerFilter.java:4)
+ java.base@11.0.15/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+ java.base@11.0.15/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.15/java.lang.Thread.run(Thread.java:829)
+18-Jul-2022 13:01:18.374 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Store issues Spool Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.15/java.lang.Thread.sleep(Native Method)
+ net.sf.ehcache.store.DiskStore.spoolAndExpiryThreadMain(DiskStore.java:634)
+ net.sf.ehcache.store.DiskStore.access$900(DiskStore.java:68)
+ net.sf.ehcache.store.DiskStore$SpoolAndExpiryThread.run(DiskStore.java:1110)
+18-Jul-2022 13:01:18.377 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [jetbrains.buildServer.util.ThreadStat$1] (value [jetbrains.buildServer.util.ThreadStat$1@5d02c42b]) and a value of type [jetbrains.buildServer.util.NoOpTraceState] (value [jetbrains.buildServer.util.NoOpTraceState@4fae361f]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+18-Jul-2022 13:01:18.377 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5fab78d]) and a value of type [jetbrains.buildServer.util.NamedThreadFactory$1] (value [jetbrains.buildServer.util.NamedThreadFactory$1@43551696]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+18-Jul-2022 13:01:18.377 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@83da14b]) and a value of type [java.util.RegularEnumSet] (value [[network]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+18-Jul-2022 13:01:18.377 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [jetbrains.buildServer.util.ThreadStat$1] (value [jetbrains.buildServer.util.ThreadStat$1@5d02c42b]) and a value of type [jetbrains.buildServer.util.NoOpTraceState] (value [jetbrains.buildServer.util.NoOpTraceState@4fae361f]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+18-Jul-2022 13:01:18.377 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5fab78d]) and a value of type [jetbrains.buildServer.util.NamedThreadFactory$1] (value [jetbrains.buildServer.util.NamedThreadFactory$1@361d709d]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+18-Jul-2022 13:01:18.378 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.InheritableThreadLocal] (value [java.lang.InheritableThreadLocal@83da14b]) and a value of type [java.util.RegularEnumSet] (value [[network]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+18-Jul-2022 13:01:18.381 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8111"]
+18-Jul-2022 13:01:18.387 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8111"]
+18-Jul-2022 13:01:21.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.78
+18-Jul-2022 13:01:21.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2022 16:05:28 UTC
+18-Jul-2022 13:01:21.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.78.0
+18-Jul-2022 13:01:21.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Jul-2022 13:01:21.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-41-generic
+18-Jul-2022 13:01:21.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Jul-2022 13:01:21.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/java/openjdk
+18-Jul-2022 13:01:21.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.15+9-LTS
+18-Jul-2022 13:01:21.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+18-Jul-2022 13:01:21.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/teamcity
+18-Jul-2022 13:01:21.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/teamcity
+18-Jul-2022 13:01:21.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED
+18-Jul-2022 13:01:21.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+IgnoreUnrecognizedVMOptions
+18-Jul-2022 13:01:21.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Jul-2022 13:01:21.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Jul-2022 13:01:21.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Jul-2022 13:01:21.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Jul-2022 13:01:21.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Jul-2022 13:01:21.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/teamcity/conf/logging.properties
+18-Jul-2022 13:01:21.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jul-2022 13:01:21.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Jul-2022 13:01:21.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jul-2022 13:01:21.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Jul-2022 13:01:21.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx2g
+18-Jul-2022 13:01:21.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:ReservedCodeCacheSize=350m
+18-Jul-2022 13:01:21.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dteamcity.configuration.path=../conf/teamcity-startup.properties
+18-Jul-2022 13:01:21.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dlog4j2.configurationFile=file:/opt/teamcity/bin/../conf/teamcity-server-log4j.xml
+18-Jul-2022 13:01:21.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dteamcity_logs=/opt/teamcity/bin/../logs
+18-Jul-2022 13:01:21.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+18-Jul-2022 13:01:21.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Jul-2022 13:01:21.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/teamcity
+18-Jul-2022 13:01:21.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/teamcity
+18-Jul-2022 13:01:21.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/teamcity/temp
+18-Jul-2022 13:01:21.423 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+18-Jul-2022 13:01:21.456 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8111"]
+18-Jul-2022 13:01:21.484 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 551 ms
+18-Jul-2022 13:01:21.540 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Jul-2022 13:01:21.540 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.78]
+18-Jul-2022 13:01:21.549 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/teamcity/webapps/ROOT]
+18-Jul-2022 13:01:26.460 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/teamcity/webapps/ROOT] has finished in [4,910] ms
+18-Jul-2022 13:01:26.474 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8111"]
+18-Jul-2022 13:01:26.516 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 5031 ms

@@ -1,0 +1,32 @@
+<root>
+  <page path="/agents.html">
+    <usage userId="1" timestamp="1658149107462" />
+  </page>
+  <page path="/agents.html?tab=agent.push">
+    <usage userId="1" timestamp="1658148811367" />
+  </page>
+  <page path="/agents.html?tab=unauthorizedAgents">
+    <usage userId="1" timestamp="1658148821063" />
+  </page>
+  <page path="/agents.html?tab=agentPools">
+    <usage userId="1" timestamp="1658148818535" />
+  </page>
+  <page path="/agents.html?tab=registeredAgents">
+    <usage userId="1" timestamp="1658148767087" />
+  </page>
+  <page path="/agents.html?tab=agentsParametersReport">
+    <usage userId="1" timestamp="1658148816735" />
+  </page>
+  <page path="/agents.html?tab=agentsStatisticsTab">
+    <usage userId="1" timestamp="1658148814265" />
+  </page>
+  <page path="/404.html">
+    <usage userId="1" timestamp="1658147727601" />
+  </page>
+  <page path="/overview.html">
+    <usage userId="1" timestamp="1658148238192" />
+  </page>
+  <page path="/">
+    <usage userId="1" timestamp="1658148991039" />
+  </page>
+</root>
