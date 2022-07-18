@@ -1,0 +1,4 @@
+[2022-07-18 12:34:45,394]   INFO - ings.CurrentVersionTrackerImpl - Reset current settings version of project(s): , reason: project settings were changed by config persisting tasks which were executed on startup
+[2022-07-18 12:41:14,308]   INFO - ings.CurrentVersionTrackerImpl - Reset current settings version of project(s): , reason: project settings were changed by config persisting tasks which were executed on startup
+[2022-07-18 12:51:40,092]   INFO - ings.CurrentVersionTrackerImpl - Reset current settings version of project(s): , reason: project settings were changed by config persisting tasks which were executed on startup
+[2022-07-18 13:02:23,112]   INFO - ings.CurrentVersionTrackerImpl - Reset current settings version of project(s): , reason: project settings were changed by config persisting tasks which were executed on startup

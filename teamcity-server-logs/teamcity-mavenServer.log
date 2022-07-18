@@ -1,0 +1,29 @@
+[2022-07-18 12:34:31,973]   INFO - r.maven.remote.MavenServerImpl - Starting maven server with following arguments: [teamcity-mavenServer] 
+[2022-07-18 12:34:32,112]   INFO - r.maven.remote.MavenServerImpl - Successfully created registry using port [58793] 
+[2022-07-18 12:34:32,112]   INFO - r.maven.remote.MavenServerImpl - Successfully bound Maven Server to name: [teamcity-mavenServer] 
+[2022-07-18 12:34:32,119]   INFO - r.maven.remote.MavenServerImpl - using name of running JVM: [271@5381536f0fd7] 
+[2022-07-18 12:34:32,120]   INFO - r.maven.remote.MavenServerImpl - Printed following string to output: [271/58793] 
+[2022-07-18 12:40:12,393]   INFO - r.maven.remote.MavenServerImpl - Shutting down. Reason [MavenEmbedderFactory shutdown called in thread [TC: 12:40:10 Processing 117 listeners for serverShutdown; 12:40:10 Stage: TeamCity server is shutting down; TeamCity Server (version 2022.04.2 build 108655 started 2022-07-18 12:33:51.925), node id: MAIN_SERVER]] 
+[2022-07-18 12:40:12,394]   INFO - r.maven.remote.MavenServerImpl - Shutdown sequence complete 
+[2022-07-18 12:40:12,395]   INFO - r.maven.remote.MavenServerImpl - The JVM is shutting down. 
+[2022-07-18 12:40:53,867]   INFO - r.maven.remote.MavenServerImpl - Starting maven server with following arguments: [teamcity-mavenServer] 
+[2022-07-18 12:40:54,059]   INFO - r.maven.remote.MavenServerImpl - Successfully created registry using port [55157] 
+[2022-07-18 12:40:54,059]   INFO - r.maven.remote.MavenServerImpl - Successfully bound Maven Server to name: [teamcity-mavenServer] 
+[2022-07-18 12:40:54,081]   INFO - r.maven.remote.MavenServerImpl - using name of running JVM: [265@2397d5b02474] 
+[2022-07-18 12:40:54,082]   INFO - r.maven.remote.MavenServerImpl - Printed following string to output: [265/55157] 
+[2022-07-18 12:48:15,974]   INFO - r.maven.remote.MavenServerImpl - Shutting down. Reason [MavenEmbedderFactory shutdown called in thread [TC: 12:48:14 Processing 117 listeners for serverShutdown; 12:48:14 Stage: TeamCity server is shutting down; TeamCity Server (version 2022.04.2 build 108655 started 2022-07-18 12:40:23.823), node id: MAIN_SERVER]] 
+[2022-07-18 12:48:15,976]   INFO - r.maven.remote.MavenServerImpl - Shutdown sequence complete 
+[2022-07-18 12:48:15,979]   INFO - r.maven.remote.MavenServerImpl - The JVM is shutting down. 
+[2022-07-18 12:51:21,102]   INFO - r.maven.remote.MavenServerImpl - Starting maven server with following arguments: [teamcity-mavenServer] 
+[2022-07-18 12:51:21,220]   INFO - r.maven.remote.MavenServerImpl - Successfully created registry using port [52686] 
+[2022-07-18 12:51:21,221]   INFO - r.maven.remote.MavenServerImpl - Successfully bound Maven Server to name: [teamcity-mavenServer] 
+[2022-07-18 12:51:21,236]   INFO - r.maven.remote.MavenServerImpl - using name of running JVM: [268@ee07409f54d6] 
+[2022-07-18 12:51:21,237]   INFO - r.maven.remote.MavenServerImpl - Printed following string to output: [268/52686] 
+[2022-07-18 13:01:16,658]   INFO - r.maven.remote.MavenServerImpl - Shutting down. Reason [MavenEmbedderFactory shutdown called in thread [TC: 13:01:15 Processing 117 listeners for serverShutdown; 13:01:15 Stage: TeamCity server is shutting down; TeamCity Server (version 2022.04.2 build 108655 started 2022-07-18 12:50:49.067), node id: MAIN_SERVER]] 
+[2022-07-18 13:01:16,661]   INFO - r.maven.remote.MavenServerImpl - Shutdown sequence complete 
+[2022-07-18 13:01:16,664]   INFO - r.maven.remote.MavenServerImpl - The JVM is shutting down. 
+[2022-07-18 13:01:54,018]   INFO - r.maven.remote.MavenServerImpl - Starting maven server with following arguments: [teamcity-mavenServer] 
+[2022-07-18 13:01:54,168]   INFO - r.maven.remote.MavenServerImpl - Successfully created registry using port [55476] 
+[2022-07-18 13:01:54,168]   INFO - r.maven.remote.MavenServerImpl - Successfully bound Maven Server to name: [teamcity-mavenServer] 
+[2022-07-18 13:01:54,177]   INFO - r.maven.remote.MavenServerImpl - using name of running JVM: [265@616ddd914399] 
+[2022-07-18 13:01:54,178]   INFO - r.maven.remote.MavenServerImpl - Printed following string to output: [265/55476] 

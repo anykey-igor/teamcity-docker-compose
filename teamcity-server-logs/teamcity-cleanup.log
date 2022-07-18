@@ -1,0 +1,12 @@
+[2022-07-18 12:34:36,871]   INFO -  jetbrains.buildServer.CLEANUP - Cleanup start time has been set to 3:00 daily
+[2022-07-18 12:34:36,888]   INFO -  jetbrains.buildServer.CLEANUP - The next cleanup time is 2022-07-19 03:00:00.000
+[2022-07-18 12:34:36,888]   INFO -  jetbrains.buildServer.CLEANUP - Cleanup is enabled
+[2022-07-18 12:41:05,522]   INFO -  jetbrains.buildServer.CLEANUP - Cleanup start time has been set to 3:00 daily
+[2022-07-18 12:41:05,523]   INFO -  jetbrains.buildServer.CLEANUP - The next cleanup time is 2022-07-19 03:00:00.000
+[2022-07-18 12:41:05,523]   INFO -  jetbrains.buildServer.CLEANUP - Cleanup is enabled
+[2022-07-18 12:51:33,468]   INFO -  jetbrains.buildServer.CLEANUP - Cleanup start time has been set to 3:00 daily
+[2022-07-18 12:51:33,483]   INFO -  jetbrains.buildServer.CLEANUP - The next cleanup time is 2022-07-19 03:00:00.000
+[2022-07-18 12:51:33,483]   INFO -  jetbrains.buildServer.CLEANUP - Cleanup is enabled
+[2022-07-18 13:02:12,276]   INFO -  jetbrains.buildServer.CLEANUP - Cleanup start time has been set to 3:00 daily
+[2022-07-18 13:02:12,295]   INFO -  jetbrains.buildServer.CLEANUP - The next cleanup time is 2022-07-19 03:00:00.000
+[2022-07-18 13:02:12,296]   INFO -  jetbrains.buildServer.CLEANUP - Cleanup is enabled

@@ -1,0 +1,4 @@
+[2022-07-18 12:34:27,510]   INFO - n.email.EMailNotificatorConfig - Loading configuration file: /data/teamcity_server/datadir/config/_notifications/email/email-config.xml
+[2022-07-18 12:40:56,281]   INFO - n.email.EMailNotificatorConfig - Loading configuration file: /data/teamcity_server/datadir/config/_notifications/email/email-config.xml
+[2022-07-18 12:51:24,027]   INFO - n.email.EMailNotificatorConfig - Loading configuration file: /data/teamcity_server/datadir/config/_notifications/email/email-config.xml
+[2022-07-18 13:02:00,914]   INFO - n.email.EMailNotificatorConfig - Loading configuration file: /data/teamcity_server/datadir/config/_notifications/email/email-config.xml
