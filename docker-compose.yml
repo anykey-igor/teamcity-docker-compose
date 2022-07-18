@@ -12,7 +12,7 @@ services:
   teamcity:
     image: jetbrains/teamcity-server:latest
     ports:
-      - "80:8111"
+      - "8112:8111"
     volumes:
       - ./data_dir:/data/teamcity_server/datadir
       - ./teamcity-server-logs:/opt/teamcity/logs
